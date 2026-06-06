@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Cakestries</title>
+  <meta name="description" content="A selected portfolio of bespoke Cakestries commissions — wedding cakes, celebration cakes, sculptural showpieces and seasonal work." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="brand">Cakestries<span class="dot">.</span></a>
+      <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      <nav class="nav__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html" class="is-active">Portfolio</a>
+        <a href="custom-orders.html">Custom Orders</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="custom-orders.html#enquiry" class="btn btn--ghost nav__cta">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb" data-reveal><a href="index.html">Home</a> — Portfolio</div>
+      <span class="eyebrow" data-reveal>Selected Work</span>
+      <h1 class="display-l" data-reveal data-reveal-delay="1">A gallery of <span class="serif-italic">commissions.</span></h1>
+      <p class="lead" data-reveal data-reveal-delay="2">Each piece below was designed for a single occasion and made entirely by hand. A glimpse of what's possible — your commission will be unlike any of them.</p>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="filters" data-reveal>
+        <button class="filter is-active" data-filter="all">All Work</button>
+        <button class="filter" data-filter="weddings">Weddings</button>
+        <button class="filter" data-filter="celebrations">Celebrations</button>
+        <button class="filter" data-filter="sculptural">Sculptural</button>
+        <button class="filter" data-filter="seasonal">Seasonal</button>
+      </div>
+
+      <div class="masonry">
+        <div class="fig gallery-item" data-cat="weddings" data-reveal>
+          <img src="https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=1000&q=80" alt="Tiered ivory wedding cake with sugar florals" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Weddings</span><div class="t">The Marchmont</div></div>
+        </div>
+        <div class="fig gallery-item" data-cat="sculptural" data-reveal>
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1000&q=80" alt="Glossy chocolate statement cake" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Sculptural</span><div class="t">Noir Velvet</div></div>
+        </div>
+        <div class="fig gallery-item" data-cat="celebrations" data-reveal>
+          <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=1000&q=80" alt="Pastel celebration cake" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Celebrations</span><div class="t">Rosewater &amp; Gold</div></div>
+        </div>
+        <div class="fig gallery-item" data-cat="seasonal" data-reveal>
+          <img src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?auto=format&fit=crop&w=1000&q=80" alt="Naked cake with seasonal fruit" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Seasonal</span><div class="t">Orchard No. 4</div></div>
+        </div>
+        <div class="fig gallery-item" data-cat="celebrations" data-reveal>
+          <img src="https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=1000&q=80" alt="Candlelit celebration cake" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Celebrations</span><div class="t">Golden Hour</div></div>
+        </div>
+        <div class="fig gallery-item" data-cat="weddings" data-reveal>
+          <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=1000&q=80" alt="Wedding cake being finished by hand" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Weddings</span><div class="t">The Linden</div></div>
+        </div>
+        <div class="fig gallery-item" data-cat="sculptural" data-reveal>
+          <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=1000&q=80" alt="Sculptural glazed cake" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Sculptural</span><div class="t">Monolith</div></div>
+        </div>
+        <div class="fig gallery-item" data-cat="seasonal" data-reveal>
+          <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=1000&q=80" alt="Seasonal petits fours and confections" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Seasonal</span><div class="t">Petits Fours, Spring</div></div>
+        </div>
+        <div class="fig gallery-item" data-cat="celebrations" data-reveal>
+          <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=1000&q=80" alt="Refined celebration cake on a pedestal" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Celebrations</span><div class="t">The Pearl</div></div>
+        </div>
+        <div class="fig gallery-item" data-cat="weddings" data-reveal>
+          <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=1000&q=80" alt="Elegant white tiered wedding cake" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Weddings</span><div class="t">Blanc Atelier</div></div>
+        </div>
+        <div class="fig gallery-item" data-cat="seasonal" data-reveal>
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1000&q=80" alt="Layered seasonal cake slice" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Seasonal</span><div class="t">Harvest Layers</div></div>
+        </div>
+        <div class="fig gallery-item" data-cat="sculptural" data-reveal>
+          <img src="https://images.unsplash.com/photo-1464195244916-405fa0a82545?auto=format&fit=crop&w=1000&q=80" alt="Styled sculptural dessert table" onerror="this.style.opacity=0" />
+          <div class="fig__cap"><span class="k">Sculptural</span><div class="t">The Grand Table</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA BAND ============ -->
+  <section class="section cta-band">
+    <div class="cta-band__bg">
+      <img src="https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=2000&q=80" alt="A finished wedding cake" onerror="this.style.opacity=0" />
+    </div>
+    <div class="wrap">
+      <div data-reveal>
+        <span class="eyebrow">Your turn</span>
+        <h2 class="display-l">Commission<br /><span class="serif-italic">one of your own.</span></h2>
+        <a href="custom-orders.html" class="btn btn--light">How It Works <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="brand">Cakestries<span class="dot" style="color:var(--clay)">.</span></a>
+          <p>A bespoke cake atelier crafting sculptural, made-to-order cakes for the occasions worth remembering.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="custom-orders.html">Custom Orders</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Studio</h4>
+          <ul>
+            <li><a href="custom-orders.html#enquiry">Enquire</a></li>
+            <li><a href="https://www.instagram.com/cakestries" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="contact.html">By appointment</a></li>
+          </ul>
+        </div>
+        <div class="footer__newsletter">
+          <h4>The Studio Notebook</h4>
+          <p>Seasonal flavours, new work and occasional openings in the diary.</p>
+          <form class="footer__news-form" data-demo onsubmit="return false;">
+            <input type="email" placeholder="Your email" aria-label="Email" required />
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> Cakestries Atelier. All rights reserved.</span>
+        <div class="socials">
+          <a href="https://www.instagram.com/cakestries" target="_blank" rel="noopener">Instagram</a>
+          <a href="custom-orders.html#enquiry">Enquire</a>
+        </div>
+      </div>
+      <div class="footer__credit"><span>Designed by</span><span class="weekone" aria-label="Weekone"><span class="weekone__txt">Week</span><span class="weekone__dia"></span><span class="weekone__txt">ne</span></span></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Cakestries</title>
+  <meta name="description" content="Contact Cakestries to begin a bespoke cake commission. By appointment — we reply to every enquiry within two working days." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="brand">Cakestries<span class="dot">.</span></a>
+      <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      <nav class="nav__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="custom-orders.html">Custom Orders</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html" class="is-active">Contact</a>
+        <a href="custom-orders.html#enquiry" class="btn btn--ghost nav__cta">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb" data-reveal><a href="index.html">Home</a> — Contact</div>
+      <span class="eyebrow" data-reveal>Say Hello</span>
+      <h1 class="display-l" data-reveal data-reveal-delay="1">Let's begin a <span class="serif-italic">conversation.</span></h1>
+      <p class="lead" data-reveal data-reveal-delay="2">Whether you know exactly what you want or only a feeling, we'd love to hear from you. Every enquiry reaches the maker directly.</p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT GRID ============ -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="contact-grid">
+        <!-- FORM -->
+        <div data-reveal>
+          <div class="form-success is-hidden">
+            Thank you — your message is with the studio. We'll reply within two working days. In the meantime, do follow along on Instagram.
+          </div>
+
+          <form class="form form-fields" data-demo onsubmit="return false;">
+            <div class="field">
+              <label for="cname">Your name</label>
+              <input type="text" id="cname" name="name" placeholder="Jane Doe" required />
+            </div>
+            <div class="field">
+              <label for="cemail">Email</label>
+              <input type="email" id="cemail" name="email" placeholder="jane@email.com" required />
+            </div>
+            <div class="field">
+              <label for="cphone">Phone (optional)</label>
+              <input type="tel" id="cphone" name="phone" placeholder="+44 …" />
+            </div>
+            <div class="field">
+              <label for="ctopic">Enquiry about</label>
+              <select id="ctopic" name="topic">
+                <option>A bespoke commission</option>
+                <option>Wedding cake</option>
+                <option>Dessert table</option>
+                <option>Press &amp; collaborations</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label for="cmsg">Your message</label>
+              <textarea id="cmsg" name="message" placeholder="Tell us a little about what you have in mind…"></textarea>
+            </div>
+            <p class="form__note">We reply to every enquiry within two working days. This is a demo form — no message is sent.</p>
+            <div class="field full">
+              <button type="submit" class="btn btn--solid">Send Message <span class="arrow">→</span></button>
+            </div>
+          </form>
+        </div>
+
+        <!-- DETAILS -->
+        <aside data-reveal data-reveal-delay="1">
+          <div class="detail">
+            <div class="k">Instagram</div>
+            <div class="v"><a href="https://www.instagram.com/cakestries" target="_blank" rel="noopener">@cakestries</a></div>
+          </div>
+          <div class="detail">
+            <div class="k">Studio</div>
+            <div class="v">By appointment only</div>
+            <p class="muted" style="font-size:0.92rem; margin-top:0.5rem;">Tastings and consultations are held at the studio by arrangement.</p>
+          </div>
+          <div class="detail">
+            <div class="k">Hours</div>
+            <div class="v">Tue – Sat</div>
+            <p class="muted" style="font-size:0.92rem; margin-top:0.5rem;">9am – 5pm. Enquiries answered within two working days.</p>
+          </div>
+          <div class="detail">
+            <div class="k">Lead time</div>
+            <div class="v">3 – 6 months</div>
+            <p class="muted" style="font-size:0.92rem; margin-top:0.5rem;">For weddings &amp; large commissions. Celebration cakes, 2 – 4 weeks.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ IMAGE STRIP ============ -->
+  <section class="wrap" style="padding-bottom: clamp(4rem,8vw,7rem);" data-reveal>
+    <div class="split__media" style="aspect-ratio:16/7;">
+      <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=2000&q=80" alt="A Cakestries cake awaiting its occasion" style="aspect-ratio:16/7;" onerror="this.style.opacity=0" />
+      <span class="tag">Until we meet</span>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="brand">Cakestries<span class="dot" style="color:var(--clay)">.</span></a>
+          <p>A bespoke cake atelier crafting sculptural, made-to-order cakes for the occasions worth remembering.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="custom-orders.html">Custom Orders</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Studio</h4>
+          <ul>
+            <li><a href="custom-orders.html#enquiry">Enquire</a></li>
+            <li><a href="https://www.instagram.com/cakestries" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="contact.html">By appointment</a></li>
+          </ul>
+        </div>
+        <div class="footer__newsletter">
+          <h4>The Studio Notebook</h4>
+          <p>Seasonal flavours, new work and occasional openings in the diary.</p>
+          <form class="footer__news-form" data-demo onsubmit="return false;">
+            <input type="email" placeholder="Your email" aria-label="Email" required />
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> Cakestries Atelier. All rights reserved.</span>
+        <div class="socials">
+          <a href="https://www.instagram.com/cakestries" target="_blank" rel="noopener">Instagram</a>
+          <a href="custom-orders.html#enquiry">Enquire</a>
+        </div>
+      </div>
+      <div class="footer__credit"><span>Designed by</span><span class="weekone" aria-label="Weekone"><span class="weekone__txt">Week</span><span class="weekone__dia"></span><span class="weekone__txt">ne</span></span></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
