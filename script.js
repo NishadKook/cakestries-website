@@ -215,7 +215,7 @@
           e.target.pause();
         }
       });
-    }, { threshold: 0.4 });
+    }, { threshold: 0.2 });
     autoVideos.forEach(function (v) { vio.observe(v); });
   }
 
